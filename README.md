@@ -16,7 +16,22 @@ The picture above shows the ideal path for a 7x10 gridword, with starting point 
 3. Run the file. *While in the cloned project's directory, paste this command into the terminal `python WindyGridworld.py`* :thumbsup:
 
 ## Notes
+The code reliably finds the best moves for this exercise in ~150-200 episodes.
+Show below, is the optimal policy found by the agent, which is identical to that of the exercise shown above.
+```
+Least amount of moves to complete is: 15
+
+← ← → → → → → → → ↓ 
+↑ → → → → → → ↓ ↓ ↓ 
+← → ↓ → → → → ↓ → ↓ 
+→ → → → → → → ↑ ↓ ↓ 
+→ → ↓ → → → ↑ ↑ ← ← 
+↑ ↓ → → ↑ ↑ ↑ ↑ ↑ ← 
+→ → → → ↑ ↑ ↑ ↑ ↓ ↓
+
+```
 You can play around by changing the starting position and end goal of the exercise. You can also change the dimensions of the gridworld along with the wind strength and how much the agent trains.
+
 Shown below are the variables you should change if you wish to modify the exercise. This snippet will be located at the bottom of the file 😸
 
 ```
